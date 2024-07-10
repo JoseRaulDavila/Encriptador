@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecriptador</title>
+    <link rel="stylesheet" href="./css/styl.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./asset/Logo.png" alt="">
+    </header>
+    <main>
+        <div class="content">
+            <div action="" class="content_1">
+                <textarea name="ingreso_texto" class="ingreso_texto" cols="30" rows="10" id="ingreso_texto"
+                    placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="content_aviso">
+                        <img src="./asset/Group.png" class="group" alt="">
+                        <span class="aviso">Solo letras minúsculas y sin acentos</span>
+                        <div class="buttons">
+                            <button id="encriptar" class="encriptar">Encriptar</button>
+                            <button id="desencriptar" class="desencriptar">Desencriptar</button>
+                        </div>
+                    </div>          
+                </div>
+                <div id="content_2" class="content_2">
+                    <img src="./asset/Muñeco.png" id="imagen_fondo" class="imagen_fondo" alt="">
+                    <textarea id="mensaje" class="content_title ajustar" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="textEncriptar" class="content_text">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button id="copiar" class="copiar oculto">Copiar</button>
+                </div>
+        </div>
+        
+    </main>
+</body>
+<script src="./js/script.js"></script>
+</html>
